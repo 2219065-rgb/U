@@ -1,0 +1,97 @@
+{
+  "version": "2.0.0",
+  "defaultCaseId": "demo-3d",
+  "cases": {
+    "demo-3d": {
+      "type": "3d",
+      "badge": "مجسم 3D تفاعلي #demo-3d",
+      "title": "كفر 3D تفاعلي — مجسم بارز فوق QR",
+      "subtitle": "وجّه الكاميرا نحو بطاقة الـ QR أو تصميم الكفر ليظهر المجسم ثلاثي الأبعاد مباشرة",
+      "themeColor": "#38bdf8",
+      "autoStartCamera": true,
+      "targetIndex": 0,
+      "targetMindUrl": "./assets/targets.mind",
+      "modelUrl": "./assets/demo-model.glb",
+      "modelScale": "0.85 0.85 0.85",
+      "modelPosition": "0 0 0.12",
+      "modelRotation": "0 0 0",
+      "ctaButtons": [
+        {
+          "icon": "💬",
+          "label": "اطلب كفرك عبر واتساب",
+          "url": "https://wa.me/9647000000000"
+        },
+        {
+          "icon": "📸",
+          "label": "حسابنا على إنستغرام",
+          "url": "https://instagram.com/"
+        }
+      ]
+    },
+    "demo-01": {
+      "type": "video",
+      "badge": "نسخة فيديو #demo-01",
+      "title": "كفر هدية تفاعلي — عرض فيديو",
+      "subtitle": "وجّه كاميرا هاتفك نحو تصميم الكفر لمشاهدة الفيديو والأزرار التفاعلية مباشرة",
+      "themeColor": "#38bdf8",
+      "autoStartCamera": false,
+      "targetIndex": 0,
+      "targetMindUrl": "./assets/targets.mind",
+      "videoUrl": "./assets/demo-video.mp4",
+      "videoWidth": 1,
+      "videoHeight": 1.35,
+      "ctaButtons": [
+        {
+          "icon": "💬",
+          "label": "اطلب كفرك عبر واتساب",
+          "url": "https://wa.me/9647000000000"
+        },
+        {
+          "icon": "📸",
+          "label": "حسابنا على إنستغرام",
+          "url": "https://instagram.com/"
+        }
+      ]
+    },
+    "demo-image": {
+      "type": "image",
+      "badge": "صورة AR #demo-image",
+      "title": "عرض صورة تفاعلية فوق QR",
+      "subtitle": "تظهر الصورة مباشرة فوق الرمز عند توجيه الكاميرا",
+      "themeColor": "#34d399",
+      "autoStartCamera": true,
+      "targetIndex": 0,
+      "targetMindUrl": "./assets/targets.mind",
+      "imageUrl": "./assets/demo-target.png",
+      "imageWidth": 1,
+      "imageHeight": 1.5,
+      "ctaButtons": [
+        {
+          "icon": "💬",
+          "label": "تواصل معنا",
+          "url": "https://wa.me/9647000000000"
+        }
+      ]
+    },
+    "order-101": {
+      "type": "video",
+      "badge": "طلب مخصص #order-101",
+      "title": "ذكرى خاصة — كفر مخصص",
+      "subtitle": "امسح تصميم الكفر لفتح الفيديو المهدى لك",
+      "themeColor": "#f472b6",
+      "autoStartCamera": false,
+      "targetIndex": 0,
+      "targetMindUrl": "./assets/targets.mind",
+      "videoUrl": "./assets/demo-video.mp4",
+      "videoWidth": 1,
+      "videoHeight": 1.35,
+      "ctaButtons": [
+        {
+          "icon": "🎁",
+          "label": "رسالة الإهداء",
+          "url": "https://example.com"
+        }
+      ]
+    }
+  }
+}
